@@ -50,7 +50,7 @@
   src: url("../../../assets/fonts/Roboto-Bold.woff2") format("woff2");
   src: url("../../../assets/fonts/Roboto-Bold.woff") format("woff");
   src: url("../../../assets/fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -62,6 +62,6 @@
   src: url("../../../assets/fonts/Recoleta-Regular.woff2") format("woff2");
   src: url("../../../assets/fonts/Recoleta-Regular.woff") format("woff");
   src: url("../../../assets/fonts/Recoleta-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-}
+}/*# sourceMappingURL=style.css.map */
