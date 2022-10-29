@@ -1,22 +1,12 @@
+@import './reset.css';
 @font-face {
-  font-family: "Roboto Regular";
-  src: url("../../../assets/fonts/Roboto-Regular.eot");
-  src: url("../../../assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Regular.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Regular.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto Medium";
-  src: url("../../../assets/fonts/Roboto-Medium.eot");
-  src: url("../../../assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Medium.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Medium.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
+  font-family: "Roboto Thin";
+  src: url("../../../assets/fonts/Roboto-Thin.eot");
+  src: url("../../../assets/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype");
+  src: url("../../../assets/fonts/Roboto-Thin.woff2") format("woff2");
+  src: url("../../../assets/fonts/Roboto-Thin.woff") format("woff");
+  src: url("../../../assets/fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -32,24 +22,24 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Recoleta Regular";
-  src: url("../../../assets/fonts/Recoleta-Regular.eot");
-  src: local("Recoleta Regular"), local("../../../assets/fonts/Recoleta-Regular");
-  src: url("../../../assets/fonts/Recoleta-Regular.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Recoleta-Regular.woff2") format("woff2");
-  src: url("../../../assets/fonts/Recoleta-Regular.woff") format("woff");
-  src: url("../../../assets/fonts/Recoleta-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "Roboto Regular";
+  src: url("../../../assets/fonts/Roboto-Regular.eot");
+  src: url("../../../assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../../../assets/fonts/Roboto-Regular.woff2") format("woff2");
+  src: url("../../../assets/fonts/Roboto-Regular.woff") format("woff");
+  src: url("../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Roboto Thin";
-  src: url("../../../assets/fonts/Roboto-Thin.eot");
-  src: url("../../../assets/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Thin.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Thin.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Thin.ttf") format("truetype");
-  font-weight: 100;
+  font-family: "Roboto Medium";
+  src: url("../../../assets/fonts/Roboto-Medium.eot");
+  src: url("../../../assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype");
+  src: url("../../../assets/fonts/Roboto-Medium.woff2") format("woff2");
+  src: url("../../../assets/fonts/Roboto-Medium.woff") format("woff");
+  src: url("../../../assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -60,137 +50,18 @@
   src: url("../../../assets/fonts/Roboto-Bold.woff2") format("woff2");
   src: url("../../../assets/fonts/Roboto-Bold.woff") format("woff");
   src: url("../../../assets/fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul, ol {
-  list-style-type: none;
-}
-
-.header {
-  background-color: #111115;
-}
-
-.header-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #fff;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-.header-wrapper .burger-lines {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 2px;
-}
-.header-wrapper .burger-lines__line {
-  width: 18px;
-  height: 2px;
-  background-color: #fff;
-  border-radius: 2px;
-}
-
-@media (max-width: 1600px) {
-  .header-wrapper {
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-}
-@media (max-width: 640px) {
-  .header-wrapper {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-.content-container {
-  padding-left: 220px;
-  padding-right: 220px;
-}
-@media (max-width: 1600px) {
-  .content-container {
-    padding-left: 220px;
-    padding-right: 220px;
-  }
-}
-@media (max-width: 1000px) {
-  .content-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-@media (max-width: 640px) {
-  .content-container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-@media (max-width: 320px) {
-  .content-container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-.main-container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-@media (max-width: 1600px) {
-  .main-container {
-    max-width: 1600px;
-  }
-}
-@media (max-width: 1000px) {
-  .main-container {
-    max-width: 1000px;
-  }
-}
-@media (max-width: 640px) {
-  .main-container {
-    max-width: 640px;
-  }
-}
-@media (max-width: 320px) {
-  .main-container {
-    max-width: 320px;
-  }
+@font-face {
+  font-family: "Recoleta Regular";
+  src: url("../../../assets/fonts/Recoleta-Regular.eot");
+  src: local("Recoleta Regular"), local("../../../assets/fonts/Recoleta-Regular");
+  src: url("../../../assets/fonts/Recoleta-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../../../assets/fonts/Recoleta-Regular.woff2") format("woff2");
+  src: url("../../../assets/fonts/Recoleta-Regular.woff") format("woff");
+  src: url("../../../assets/fonts/Recoleta-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
