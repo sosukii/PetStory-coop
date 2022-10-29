@@ -64,4 +64,48 @@
   src: url("../../../assets/fonts/Recoleta-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-}/*# sourceMappingURL=style.css.map */
+}
+.content-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+  .content-container {
+    max-width: 940px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .content-container {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content-container {
+    max-width: 300px;
+  }
+}
+
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1600px) {
+  .main-container {
+    max-width: 1600px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-container {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .main-container {
+    max-width: 640px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-container {
+    max-width: 320px;
+  }
+}
