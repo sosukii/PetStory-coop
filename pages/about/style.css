@@ -100,8 +100,6 @@
   height: 2px;
   background-color: #fff;
   border-radius: 2px;
-  content: "";
-  margin-top: 4px;
 }
 .burger-wrapper .burger::before, .burger-wrapper .burger::after {
   display: block;
@@ -115,6 +113,11 @@
   content: "";
   margin-top: -4px;
 }
+.burger-wrapper .burger::after {
+  content: "";
+  margin-top: 4px;
+}
+
 .navbar-wrapper {
   font-family: "Roboto Medium";
   display: -webkit-box;
