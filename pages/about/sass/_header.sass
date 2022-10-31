@@ -9,15 +9,40 @@
     padding-top: 14px
     padding-bottom: 14px
     .header-logo
-        font-family:
+        font-family: 'Roboto Regular'
+        text-align: center
 
-
-    .burger-lines
-        display: flex
-        flex-direction: column
-        gap: 2px
-        &__line
-            width: 18px
-            height: 2px
+.burger-wrapper
+    cursor: pointer
+    position: relative
+    height: 10px
+    .burger
+        position: relative
+        top: 4px
+        width: 18px
+        height: 2px
+        background-color: #fff
+        border-radius: 2px
+        &::before, &::after
+            display: block
             background-color: #fff
+            position: absolute
+            height: 2px
+            width: 18px
             border-radius: 2px
+        &::before
+            content: ''
+            margin-top: -4px
+        &::after
+        content: ''
+        margin-top: 4px
+
+.navbar-wrapper
+    font-family: 'Roboto Medium'
+    display: flex
+    width: 100%
+    justify-content: space-between
+    .navbar
+        .navbar__list
+            display: flex
+            margin-left: 63px
