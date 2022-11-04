@@ -82,7 +82,7 @@ body {
 }
 
 .testimonials {
-   background: url(../../assets/img/testimonials-bg.png) no-repeat;
+   background: url(/PetStory-coop/assets/img/testimonials-bg.png) no-repeat;
    background-position: right 106%;
    background-size: 60px;
    min-height: 580px;
