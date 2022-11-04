@@ -135,6 +135,43 @@
   margin-left: 63px;
 }
 
+.circle {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+  position: relative;
+}
+.circle__text {
+  font-family: "Roboto Bold";
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+.circle__text-accent {
+  color: #FFEE2E;
+}
+
+.watch-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.watch-btn {
+  position: relative;
+  font-family: "Roboto Medium";
+  text-transform: uppercase;
+  padding: 18px 92px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  border: none;
+  color: #FFFFFF;
+}
+
 @media (min-width: 320px) {
   .navbar-wrapper {
     display: none;
@@ -149,6 +186,12 @@
     font-size: 12px;
     border: none;
     padding: 0;
+  }
+}
+@media (min-width: 640px) {
+  .header {
+    position: relative;
+    z-index: 2;
   }
 }
 @media (min-width: 1000px) {
@@ -181,6 +224,173 @@
 @media (min-width: 1600px) {
   .navbar__list {
     gap: 58px;
+  }
+}
+@media (min-width: 320px) {
+  .watch {
+    background: url("../../../assets/images/watch/panda_1600.jpg") no-repeat;
+    background-size: cover;
+    background-position: top 0rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 187px;
+  }
+
+  .watch-btn {
+    font-size: 16px;
+    bottom: -87px;
+  }
+
+  .circle {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    top: 22px;
+    left: -28px;
+    width: 119px;
+    height: 119px;
+  }
+
+  .circle__text {
+    line-height: 21px;
+    font-size: 28px;
+    top: 19px;
+    right: -23px;
+  }
+}
+@media (min-width: 570px) {
+  .watch-wrapper {
+    min-height: 285px;
+  }
+}
+@media (min-width: 640px) {
+  .watch {
+    background: url("../../../assets/images/watch/panda_640.jpg") no-repeat;
+    background-size: cover;
+    background-position: top -2rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 339px;
+  }
+
+  .watch-btn {
+    bottom: -7px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .circle {
+    min-width: 237px;
+    min-height: 237px;
+    top: 10px;
+    left: -52px;
+  }
+
+  .circle__text {
+    line-height: 41px;
+    font-size: 54px;
+    top: 38px;
+    left: 46px;
+  }
+}
+@media (min-width: 690px) {
+  .watch-btn {
+    bottom: -35px;
+  }
+}
+@media (min-width: 720px) {
+  .watch-wrapper {
+    min-height: 385px;
+  }
+
+  .watch-btn {
+    bottom: -75px;
+  }
+}
+@media (min-width: 890px) {
+  .watch-btn {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+  }
+}
+@media (min-width: 1000px) {
+  .watch {
+    background-position: top -5rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 504px;
+  }
+
+  .watch-btn {
+    bottom: -35px;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    left: -104px;
+  }
+
+  .circle {
+    min-width: 367px;
+    min-height: 367px;
+    top: -11px;
+    left: -147px;
+    z-index: 1;
+  }
+
+  .circle__text {
+    line-height: 64px;
+    font-size: 85px;
+    top: 53px;
+    left: 75px;
+  }
+
+  .circle__text-accent {
+    position: relative;
+    left: -9px;
+  }
+}
+@media (min-width: 1150px) {
+  .watch {
+    background: url("../../../assets/images/watch/panda_1600.jpg") no-repeat;
+    background-size: cover;
+    background-position: top -5rem left 50%;
+  }
+}
+@media (min-width: 1320px) {
+  .watch-wrapper {
+    min-height: 600px;
+  }
+
+  .watch-btn {
+    bottom: -80px;
+    left: -97px;
+  }
+
+  .circle {
+    top: 12px;
+    left: -108px;
+  }
+}
+@media (min-width: 1600px) {
+  .watch-wrapper {
+    min-height: 700px;
+  }
+
+  .circle {
+    min-width: 465px;
+    min-height: 465px;
+  }
+
+  .circle__text {
+    line-height: 80px;
+    font-size: 106px;
+    top: 72px;
+    left: 90px;
   }
 }
 @media screen and (min-width: 320px) {
