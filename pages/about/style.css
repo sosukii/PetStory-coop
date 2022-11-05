@@ -1,67 +1,419 @@
 @import './reset.css';
 @font-face {
-  font-family: "Roboto Regular";
-  src: url("../../../assets/fonts/Roboto-Regular.eot");
-  src: url("../../../assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Regular.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Regular.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto Medium";
-  src: url("../../../assets/fonts/Roboto-Medium.eot");
-  src: url("../../../assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Medium.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Medium.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto Light";
-  src: url("../../../assets/fonts/Roboto-Light.eot");
-  src: url("../../../assets/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Light.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Light.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Recoleta Regular";
-  src: url("../../../assets/fonts/Recoleta-Regular.eot");
-  src: local("Recoleta Regular"), local("../../../assets/fonts/Recoleta-Regular");
-  src: url("../../../assets/fonts/Recoleta-Regular.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Recoleta-Regular.woff2") format("woff2");
-  src: url("../../../assets/fonts/Recoleta-Regular.woff") format("woff");
-  src: url("../../../assets/fonts/Recoleta-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Roboto Thin";
-  src: url("../../../assets/fonts/Roboto-Thin.eot");
-  src: url("../../../assets/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Thin.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Thin.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Thin.ttf") format("truetype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Thin.eot");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Thin.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Thin.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Roboto Bold";
-  src: url("../../../assets/fonts/Roboto-Bold.eot");
-  src: url("../../../assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype");
-  src: url("../../../assets/fonts/Roboto-Bold.woff2") format("woff2");
-  src: url("../../../assets/fonts/Roboto-Bold.woff") format("woff");
-  src: url("../../../assets/fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: "Roboto Light";
+  src: url("/PetStory-coop/assets/fonts/Roboto-Light.eot");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Light.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Light.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("/PetStory-coop/assets/fonts/Roboto-Regular.eot");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Regular.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Regular.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("/PetStory-coop/assets/fonts/Roboto-Medium.eot");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Medium.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Medium.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("/PetStory-coop/assets/fonts/Roboto-Bold.eot");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Bold.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Bold.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Recoleta Regular";
+  src: url("/PetStory-coop/assets/fonts/Recoleta-Regular.eot");
+  src: local("Recoleta Regular"), local("/PetStory-coop/assets/fonts/Recoleta-Regular");
+  src: url("/PetStory-coop/assets/fonts/Recoleta-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("/PetStory-coop/assets/fonts/Recoleta-Regular.woff2") format("woff2");
+  src: url("/PetStory-coop/assets/fonts/Recoleta-Regular.woff") format("woff");
+  src: url("/PetStory-coop/assets/fonts/Recoleta-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  background-color: #111115;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.header-wrapper .header-logo {
+  font-family: "Roboto Regular";
+  text-align: center;
+}
+
+.burger-wrapper {
+  cursor: pointer;
+  position: relative;
+  height: 10px;
+}
+.burger-wrapper .burger {
+  position: relative;
+  top: 4px;
+  width: 18px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.burger-wrapper .burger::before, .burger-wrapper .burger::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 2px;
+  width: 18px;
+  border-radius: 2px;
+}
+.burger-wrapper .burger::before {
+  content: "";
+  margin-top: -4px;
+}
+.burger-wrapper .burger::after {
+  content: "";
+  margin-top: 4px;
+}
+
+.navbar-wrapper {
+  font-family: "Roboto Medium";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navbar-wrapper .navbar .navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 63px;
+}
+
+.circle {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+  position: relative;
+}
+.circle__text {
+  font-family: "Roboto Bold";
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+.circle__text-accent {
+  color: #FFEE2E;
+}
+
+.watch-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.watch-btn {
+  position: relative;
+  font-family: "Roboto Medium";
+  text-transform: uppercase;
+  padding: 18px 92px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  border: none;
+  color: #FFFFFF;
+}
+
+@media (min-width: 320px) {
+  .navbar-wrapper {
+    display: none;
+  }
+
+  .header-wrapper {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .header-logo {
+    font-size: 12px;
+    border: none;
+    padding: 0;
+  }
+}
+@media (min-width: 640px) {
+  .header {
+    position: relative;
+    z-index: 2;
+  }
+}
+@media (min-width: 1000px) {
+  .header-wrapper {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .header-logo {
+    font-size: 19.0145px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 0px 2.75px;
+  }
+
+  .navbar-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar__list {
+    gap: 48px;
+  }
+
+  .burger-wrapper {
+    display: none;
+  }
+}
+@media (min-width: 1600px) {
+  .navbar__list {
+    gap: 58px;
+  }
+}
+@media (min-width: 320px) {
+  .watch {
+    background: url("/PetStory-coop/assets/images/watch/panda_1600.jpg") no-repeat;
+    background-size: cover;
+    background-position: top 0rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 187px;
+  }
+
+  .watch-btn {
+    font-size: 16px;
+    bottom: -87px;
+  }
+
+  .circle {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    top: 22px;
+    left: -28px;
+    width: 119px;
+    height: 119px;
+  }
+
+  .circle__text {
+    line-height: 21px;
+    font-size: 28px;
+    top: 19px;
+    right: -23px;
+  }
+}
+@media (min-width: 570px) {
+  .watch-wrapper {
+    min-height: 285px;
+  }
+}
+@media (min-width: 640px) {
+  .watch {
+    background: url("/PetStory-coop/assets/images/watch/panda_640.jpg") no-repeat;
+    background-size: cover;
+    background-position: top -2rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 339px;
+  }
+
+  .watch-btn {
+    bottom: -7px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .circle {
+    min-width: 237px;
+    min-height: 237px;
+    top: 10px;
+    left: -52px;
+  }
+
+  .circle__text {
+    line-height: 41px;
+    font-size: 54px;
+    top: 38px;
+    left: 46px;
+  }
+}
+@media (min-width: 690px) {
+  .watch-btn {
+    bottom: -35px;
+  }
+}
+@media (min-width: 720px) {
+  .watch-wrapper {
+    min-height: 385px;
+  }
+
+  .watch-btn {
+    bottom: -75px;
+  }
+}
+@media (min-width: 890px) {
+  .watch-btn {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+  }
+}
+@media (min-width: 1000px) {
+  .watch {
+    background-position: top -5rem left 50%;
+  }
+
+  .watch-wrapper {
+    min-height: 504px;
+  }
+
+  .watch-btn {
+    bottom: -35px;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    left: -104px;
+  }
+
+  .circle {
+    min-width: 367px;
+    min-height: 367px;
+    top: -11px;
+    left: -147px;
+    z-index: 1;
+  }
+
+  .circle__text {
+    line-height: 64px;
+    font-size: 85px;
+    top: 53px;
+    left: 75px;
+  }
+
+  .circle__text-accent {
+    position: relative;
+    left: -9px;
+  }
+}
+@media (min-width: 1150px) {
+  .watch {
+    background: url("/PetStory-coop/assets/images/watch/panda_1600.jpg") no-repeat;
+    background-size: cover;
+    background-position: top -5rem left 50%;
+  }
+}
+@media (min-width: 1320px) {
+  .watch-wrapper {
+    min-height: 600px;
+  }
+
+  .watch-btn {
+    bottom: -80px;
+    left: -97px;
+  }
+
+  .circle {
+    top: 12px;
+    left: -108px;
+  }
+}
+@media (min-width: 1600px) {
+  .watch-wrapper {
+    min-height: 700px;
+  }
+
+  .circle {
+    min-width: 465px;
+    min-height: 465px;
+  }
+
+  .circle__text {
+    line-height: 80px;
+    font-size: 106px;
+    top: 72px;
+    left: 90px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .content-container {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .content-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .content-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .content-container {
+    max-width: 1160px;
+  }
 }

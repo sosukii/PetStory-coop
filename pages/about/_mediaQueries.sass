@@ -1,0 +1,16 @@
+@use './sass/_header-mediaQueries'
+@use './sass/_watch-mediaQueries'
+
+.content-container
+    @media screen and (min-width: 320px)
+        margin: 0 auto
+        padding-left: 10px
+        padding-right: 10px
+    @media screen and (min-width: 640px)
+        padding-left: 20px
+        padding-right: 20px
+    @media screen and (min-width: 1000px)
+        padding-left: 30px
+        padding-right: 30px
+    @media screen and (min-width: 1160px)
+        max-width: 1160px
